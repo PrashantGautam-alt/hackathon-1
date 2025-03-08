@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: cyan;
+    font-size: 3rem; /* Increased size */
+}
+
+header p {
+    font-size: 1.5rem; /* Increased size */
+    color: #bbb;
+}
+
+section {
+    background-color: #222;
+    padding: 30px; /* Increased padding */
+    margin: 40px auto; /* Increased margin */
+    width: 80%; /* Made wider */
+    border-radius: 10px;
+    opacity: 0;  /* Initially hidden */
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    font-size: 2.5rem; /* Increased section titles */
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+    font-size: 1.8rem; /* Increased text size */
+}
+
+pre {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.5rem; /* Increased code text size */
+    width: 100%; /* Make preformatted text span full width */
+}

@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: cyan;
+    font-size: 3rem;
+    display: inline-block;
+    border-right: 2px solid cyan;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: lightblue;
+}
+
+p, ul {
+    font-size: 1.8rem;
+    text-align: left;
+    display: inline-block;
+}
+
+/* QR Code Styling */
+.qr-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid cyan;
+}
+
+.qr-text {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: lightgray;
+}
+
+/* Navigation Link */
+.nav-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: cyan;
+    border: 2px solid cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background: cyan;
+    color: black;
+}

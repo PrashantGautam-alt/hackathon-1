@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Statement 1</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1 id="typing-text"></h1>
+
+    <h2>Problem 1: Framework for AI Agents in JavaScript</h2>
+    <p>
+        <strong>Goal:</strong> Create an easy-to-use framework for building AI agents in JavaScript, focusing on decision-making, learning, and interaction.
+    </p>
+    <ul>
+        <li><strong>Modular Components:</strong> For decision-making, learning, and interaction.</li>
+        <li><strong>Reinforcement Learning:</strong> Methods like Q-Learning for autonomy.</li>
+        <li><strong>LLM Integration:</strong> For chatbots and voice assistants.</li>
+        <li><strong>Multi-agent Systems:</strong> Collaboration/competition among agents.</li>
+        <li><strong>Simulation Tools:</strong> For environment interaction and testing.</li>
+    </ul>
+
+    <!-- QR Code Section -->
+    <div class="qr-container">
+        <img src="./image.png" alt="QR Code">
+        <p class="qr-text">Scan for More Info</p>
+    </div>
+
+    <a href="overview.html" class="nav-link"> ► Project Overview</a>
+
+    <script>
+        const text = "Problem-Statement-1";
+        let index = 0;
+        function typeEffect() {
+            if (index < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeEffect, 100);
+            }
+        }
+        window.onload = typeEffect;
+    </script>
+</body>
+</html>

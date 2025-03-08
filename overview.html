@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Framework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>AI Agent Framework with Q-Learning</h1>
+        <p>Built using JavaScript</p>
+        <p>By Prashant Gautam, Lavanya Singh, Arpit Saini</p>
+    </header>
+
+    <section class="fade-in">
+        <h2>Introduction</h2>
+        <ul>
+            <li>This project demonstrates an AI Agent Framework.</li>
+            <li>It has multiple agents interacting in an environment.</li>
+            <li>One agent uses Q-learning to learn from rewards.</li>
+        </ul>
+    </section>
+
+    <section class="fade-in">
+        <h2>Agent Class</h2>
+        <ul>
+            <li>Represents a basic agent in the environment.</li>
+            <li>Has a name and can perform actions.</li>
+            <li>Example: 'Agent 1 is acting.'</li>
+        </ul>
+    </section>
+
+    <section class="fade-in">
+        <h2>Environment Class</h2>
+        <ul>
+            <li>Manages multiple agents in the environment.</li>
+            <li>Can add agents and simulate their actions.</li>
+            <li>Uses a loop to call each agent's <code>act()</code> function.</li>
+        </ul>
+    </section>
+
+    <section class="fade-in">
+        <h2>Q-Learning Agent</h2>
+        <ul>
+            <li>Extends the Agent class.</li>
+            <li>Uses a Q-Table to store state-action-reward values.</li>
+            <li>Can learn from rewards and improve actions.</li>
+        </ul>
+    </section>
+
+    <section class="fade-in">
+        <h2>Code Flow</h2>
+        <ol>
+            <li>Create Environment.</li>
+            <li>Create Agent and Q-Learning Agent.</li>
+            <li>Add agents to environment.</li>
+            <li>Simulate environment.</li>
+            <li>Train Q-Learning Agent.</li>
+        </ol>
+    </section>
+
+    <section class="fade-in">
+        <h2>Expected Output</h2>
+        <pre>
+Simulating environment...
+Agent 1 is acting.
+Q-Agent is acting.
+
+Training Q-Agent...
+Q-Table: { 'state1-action1': 10 }
+        </pre>
+    </section>
+
+    <section class="fade-in">
+        <h2>Future Enhancements</h2>
+        <ul>
+            <li>Expand Q-Learning Agent.</li>
+            <li>Add more states and actions.</li>
+            <li>Enable the agent to handle complex scenarios.</li>
+            <li>Implement a reward function based on agent actions and environment states.</li>
+            <li>Align learning with real-world reinforcement learning.</li>
+            <li>Visualize Q-Table.</li>
+            <li>Use charts or graphs to represent the Q-table.</li>
+            <li>Improve understanding of agent learning progress.</li>
+        </ul>
+       
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
